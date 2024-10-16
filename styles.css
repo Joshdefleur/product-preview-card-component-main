@@ -10,13 +10,18 @@ body{
     min-height: 100vh;
     padding: 30px 15px;
     background-color: hsl(30, 38%, 92%);
-    
+
 }
 
 .page{
     background-color: white;
     border-radius: 10px;
 
+}
+
+h1{
+    font-family: "Fraunces", serif;
+    font-weight: 700;
 }
 
 /* photo */
