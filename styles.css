@@ -8,19 +8,28 @@ body{
     display: flex;
     justify-content: center;
     min-height: 100vh;
-    padding: 30px 0;
+    padding: 30px 15px;
+    background-color: hsl(30, 38%, 92%);
 }
 
 .page{
+    background-color: white;
+    border-radius: 10px;
 
 }
 
 /* photo */
 
+
 .pic{
     height: 100%;
     width: 100%;
+    border-radius: 10px 10px 0 0;
 }
 
 
 /* info */
+
+.info{
+    padding: 1.5em;
+}
