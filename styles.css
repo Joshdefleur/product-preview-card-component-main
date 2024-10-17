@@ -8,6 +8,7 @@
 body{
     display: flex;
     justify-content: center;
+    align-items: center;
     min-height: 100vh;
     padding: 30px 15px;
     background-color: hsl(30, 38%, 92%);
@@ -51,7 +52,7 @@ p{
 /* info */
 
 .info{
-    padding: 1em 1.7em;
+    padding:1.7em;
 }
 
 .mainp{
