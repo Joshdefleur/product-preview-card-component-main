@@ -85,6 +85,10 @@ p{
     opacity: 1;
     padding: 1em;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
 }
 
 .button:hover{
