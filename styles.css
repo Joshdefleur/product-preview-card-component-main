@@ -19,6 +19,7 @@ body{
     background-color: white;
     border-radius: 10px;
     margin: auto;
+    max-width: 600px;
 
 }
 
@@ -36,6 +37,7 @@ p{
     font-family: "Montserrat", sans-serif;
     line-height: 1.5;
     opacity: 0.6;
+    font-weight: 500;
 }
 
 
@@ -46,6 +48,10 @@ p{
     height: 100%;
     width: 100%;
     border-radius: 10px 10px 0 0;
+}
+
+.pic2{
+    display: none;
 }
 
 
@@ -83,4 +89,40 @@ p{
 
 .button:hover{
     background-color: hsl(157, 24%, 19%);
+}
+
+/* Desktop */
+
+@media screen and (min-width: 784px){
+    .page{
+        display: flex;
+    }
+
+    .photo{
+        width: 300px;
+    }
+
+    .info{
+        width: 300px;
+        padding: 2em;
+    }
+
+    .pic{
+        display: none;
+    }
+
+    .pic2{
+        display: block;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .prices{
+        margin-bottom: 1em;
+    }
+
+    .huge{
+        margin: 0.7em 0;
+    }
 }
